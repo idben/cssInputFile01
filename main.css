@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+html{
+  height: 100%;
+}
+body{
+  height: 100%;
+}
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.container{
+  width: 800px;
+  min-height: 300px;
+  background-color: rgba(201, 191, 194, 0.3);
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 10px;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+.row{
+  position: relative;
+}
+.desc{
+  font-weight: 300;
+  font-size: 18px;
+}
+.row1{
+  display: flex;
+  margin-bottom: 10px;
+}
+.row1 input{
+  display: none;
+}
+.row1 span{
+  display: inline-block;
+  font-weight: 100;
+  width: calc(100% - 120px);
+  border: 1px solid rgb(237, 86, 11);
+  height: 40px;
+  line-height: 40px;
+  box-sizing: border-box;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px 0 0 5px;
+  color: rgb(237, 86, 11);
+  background-color: #fff;
+  font-size: 16px;
+}
+.row1 label{
+  display: inline-block;
+  font-weight: 300;
+  box-sizing: border-box;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  background-color: rgb(237, 86, 11);
+  color: #fff;
+  border: none;
+  text-align: center;
+  font-weight: normal;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  user-select: none;
+  font-size: 18px;
+}
+.row1 label:hover{
+  background-color: rgb(245, 125, 65);
+}
+
+.row2{
+  display: flex;
+  margin-bottom: 10px;
+}
+.row2 input{
+  display: none;
+}
+.row2 span{
+  display: inline-block;
+  font-weight: 100;
+  width: calc(100% - 60px);
+  border: 1px solid rgb(235, 181, 4);
+  height: 40px;
+  line-height: 40px;
+  box-sizing: border-box;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 0 5px 5px 0;
+  color: rgb(200, 154, 3);
+  background-color: #fff;
+  font-size: 16px;
+}
+.row2 label{
+  display: inline-block;
+  font-weight: 300;
+  box-sizing: border-box;
+  width: 60px;
+  height: 40px;
+  line-height: 40px;
+  background-color: rgb(235, 181, 4);
+  color: rgb(240, 240, 240);
+  border: none;
+  text-align: center;
+  font-weight: normal;
+  border-radius: 5px 0 0 5px;
+  cursor: pointer;
+  user-select: none;
+  font-size: 32px;
+}
+.row2 label:hover{
+  background-color: rgb(249, 117, 1);
+  color: rgb(255, 254, 254);
+}
+.row3{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 2px solid rgb(247, 106, 106);
+  overflow: hidden;
+}
+.row3 input{
+  display: none;
+}
+.row3 label{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: block;
+  width: 25px;
+  height: 25px;
+  background-color: rgb(247, 106, 106);
+  box-sizing: border-box;
+  padding-left: 5px;
+  border-radius: 5px 0 0 0;
+  color: #fff;
+}
+.row3 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: none;
+}
+.row3 .imgShow{
+  display: block;
+}
